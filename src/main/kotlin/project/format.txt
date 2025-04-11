@@ -1,0 +1,61 @@
+4 collections 
+1)Patient
+2)Doctor
+3)Admin
+4)Lab
+
+
+
+1)Patient Collection fields:-
+	-id,
+	patientId,
+	patientName,
+	patientEmailId,
+	patientPhNo,
+	patientBloodGroup,
+	existingMedicalConditions<List>:,
+		medicalConditionName,
+		timestamp,
+		status
+	doctorVisits<List>:,
+		visitId,
+		doctorId,
+		timestamp,
+		remarks,
+		medicalConditionName,
+		symptoms,
+		tests,
+		medications<List>:
+			medicationName,
+			timestamp,
+			dose,
+			doseTime<List>:
+				doseTimeSlot,
+				doseRemark
+			endDate
+	reports<List>:,
+		reportId,
+		visitId,
+		timestamp,
+		labId,
+		reportName,
+		report
+
+2)Doctor Collection fields:-
+	_id,
+	doctorName,
+	doctorEmail,
+	doctorPhNo,
+	hospital,
+	department,
+	designation,
+
+3)Admin Collection fields:-
+	_id,
+	adminName,
+	adminEmail,
+	adminPhNo
+
+4)Lab Collection fields:-
+	_id,
+	labDoctorId

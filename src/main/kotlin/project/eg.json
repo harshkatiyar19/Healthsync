@@ -1,0 +1,232 @@
+{
+  "_id": {
+    "$oid": "67b338e6986e058a22b8e9a4"
+  },
+  "patientId": "605c72ef153207001f78e0b7",
+  "patientName": "John Doe",
+  "patientEmailId": "john.doe@example.com",
+  "patientPhNo": "1234567890",
+  "patientBloodGroup": "O+",
+  "existingMedicalConditions": [
+    {
+      "medicalConditionName": "Hypertension",
+      "timestamp": "2025-02-17T12:34:56",
+      "status": true
+    },
+    {
+      "medicalConditionName": "Diabetes",
+      "timestamp": "2025-01-15T10:00:00",
+      "status": false
+    }
+  ],
+  "doctorVisits": [
+    {
+      "visitId": "605c72ef153207001f78e0b8",
+      "doctorId": "605c72ef153207001f78e0b9",
+      "timestamp": "2025-02-10T09:30:00",
+      "remarks": "Routine checkup",
+      "medicalConditionName": "Hypertension",
+      "symptoms": "None",
+      "tests": "Blood pressure test",
+      "medications": [
+        {
+          "medicationName": "Amlodipine",
+          "timestamp": "2025-02-10T09:30:00",
+          "dose": "5mg",
+          "doseTime": [
+            {
+              "doseTimeSlot": "MORNING",
+              "doseRemark": "Take after breakfast"
+            }
+          ],
+          "endDate": "2025-03-10T00:00:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65e2a4b3c7d8e9f0a2000020"
+      },
+      "doctorId": {
+        "$oid": "65e2a4b3c7d8e9f0a2000030"
+      },
+      "timestamp": {
+        "$date": "2024-02-18T09:00:00.000Z"
+      },
+      "remarks": "Patient showing signs of improvement",
+      "medicalConditionName": "Hypertension",
+      "symptoms": "Headache, dizziness, nausea",
+      "tests": "Blood Pressure, ECG, Blood Test",
+      "medications": [
+        {
+          "medicationName": "Amlodipine",
+          "timestamp": {
+            "$date": "2024-02-18T02:30:00.000Z"
+          },
+          "dose": "5mg",
+          "doseTime": [
+            {
+              "doseTimeSlot": "MORNING",
+              "doseRemark": "Take after breakfast"
+            },
+            {
+              "doseTimeSlot": "EVENING",
+              "doseRemark": "Take before dinner"
+            }
+          ],
+          "endDate": {
+            "$date": "2024-03-17T18:30:00.000Z"
+          }
+        },
+        {
+          "medicationName": "Losartan",
+          "timestamp": {
+            "$date": "2024-02-18T02:30:00.000Z"
+          },
+          "dose": "50mg",
+          "doseTime": [
+            {
+              "doseTimeSlot": "MORNING",
+              "doseRemark": "Take with water"
+            }
+          ],
+          "endDate": {
+            "$date": "2024-04-17T18:30:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65e2a4b3c7d8e9f0a2000020"
+      },
+      "doctorId": {
+        "$oid": "65e2a4b3c7d8e9f0a2000030"
+      },
+      "timestamp": {
+        "$date": "2024-02-18T09:00:00.000Z"
+      },
+      "remarks": "Patient showing signs of improvement",
+      "medicalConditionName": "Hypertension",
+      "symptoms": "Headache, dizziness, nausea",
+      "tests": "Blood Pressure, ECG, Blood Test",
+      "medications": [
+        {
+          "medicationName": "Amlodipine",
+          "timestamp": {
+            "$date": "2024-02-18T02:30:00.000Z"
+          },
+          "dose": "5mg",
+          "doseTime": [
+            {
+              "doseTimeSlot": "MORNING",
+              "doseRemark": "Take after breakfast"
+            },
+            {
+              "doseTimeSlot": "EVENING",
+              "doseRemark": "Take before dinner"
+            }
+          ],
+          "endDate": {
+            "$date": "2024-03-17T18:30:00.000Z"
+          }
+        },
+        {
+          "medicationName": "Losartan",
+          "timestamp": {
+            "$date": "2024-02-18T02:30:00.000Z"
+          },
+          "dose": "50mg",
+          "doseTime": [
+            {
+              "doseTimeSlot": "MORNING",
+              "doseRemark": "Take with water"
+            }
+          ],
+          "endDate": {
+            "$date": "2024-04-17T18:30:00.000Z"
+          }
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "65d1f0c3e123456789abcdef"
+      },
+      "doctorId": {
+        "$oid": "65d1f0c3e123456789abcdee"
+      },
+      "timestamp": {
+        "$date": "2025-02-18T05:00:00.000Z"
+      },
+      "remarks": "Patient shows signs of mild infection.",
+      "medicalConditionName": "Flu",
+      "symptoms": "Fever, cough, fatigue",
+      "tests": "Blood Test, X-ray",
+      "medications": [
+        {
+          "medicationName": "Paracetamol",
+          "timestamp": {
+            "$date": "2025-02-18T05:30:00.000Z"
+          },
+          "dose": "500mg",
+          "doseTime": [
+            {
+              "doseTimeSlot": "MORNING",
+              "doseRemark": "After breakfast"
+            },
+            {
+              "doseTimeSlot": "EVENING",
+              "doseRemark": "After dinner"
+            }
+          ],
+          "endDate": {
+            "$date": "2025-05-25T05:30:00.000Z"
+          }
+        },
+        {
+          "medicationName": "Amoxicillin",
+          "timestamp": {
+            "$date": "2025-02-18T05:30:00.000Z"
+          },
+          "dose": "250mg",
+          "doseTime": [
+            {
+              "doseTimeSlot": "AFTERNOON",
+              "doseRemark": "After lunch"
+            }
+          ],
+          "endDate": {
+            "$date": "2025-06-23T05:30:00.000Z"
+          }
+        }
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "reportId": "605c72ef153207001f78e0ba",
+      "visitId": "605c72ef153207001f78e0b8",
+      "timestamp": "2025-02-11T11:00:00",
+      "labId": "605c72ef153207001f78e0bb",
+      "reportName": "Blood Pressure Test",
+      "report": "Normal range"
+    },
+    {
+      "_id": {
+        "$oid": "65d1f0c3e123456789abcdef"
+      },
+      "visitId": {
+        "$oid": "65d1f0c3e123456789abcdee"
+      },
+      "timestamp": {
+        "$date": "2025-02-18T04:30:00.000Z"
+      },
+      "labId": {
+        "$oid": "65d1f0c3e123456789abcded"
+      },
+      "reportName": "Blood Test Results",
+      "report": "The patient has a low white blood cell count. Further tests recommended."
+    }
+  ]
+}
